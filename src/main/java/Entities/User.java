@@ -10,10 +10,10 @@ public class User {
 
     private String name;
     private String email;
-    private String role; // "DOCTOR" or "PATIENT"
+    private String role;
 
     @ManyToOne
-    private Specialization specialization; // Only for doctors
+    private Specialization specialization;
 
     public User() {}
 
